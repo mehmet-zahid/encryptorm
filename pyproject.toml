@@ -1,0 +1,15 @@
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]
+
+[tool.poetry]
+name = "encryptorm"
+version = "0.0.1"
+description = "encyptorm is a simple and easy to use encryption and decryption helper module"
+authors = ["Mehmet Zahid IŞIK <mehmetzahidisik@gmail.com>"]
+packages = [{include = "encryptorm"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10.0"
+loguru = "^0.7.0"
+cryptography = "^41.0.5"
